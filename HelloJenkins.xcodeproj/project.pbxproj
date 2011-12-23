@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5C00B2A14A4B5830088E6A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C00B2914A4B5830088E6A4 /* UIKit.framework */; };
+		A5C00B2C14A4B5830088E6A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C00B2B14A4B5830088E6A4 /* Foundation.framework */; };
+		A5C00B2E14A4B5830088E6A4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C00B2D14A4B5830088E6A4 /* CoreGraphics.framework */; };
+		A5C00B3414A4B5830088E6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5C00B3214A4B5830088E6A4 /* InfoPlist.strings */; };
+		A5C00B3614A4B5830088E6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C00B3514A4B5830088E6A4 /* main.m */; };
+		A5C00B3A14A4B5830088E6A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C00B3914A4B5830088E6A4 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5C00B2514A4B5830088E6A4 /* HelloJenkins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloJenkins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C00B2914A4B5830088E6A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5C00B2B14A4B5830088E6A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5C00B2D14A4B5830088E6A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5C00B3114A4B5830088E6A4 /* HelloJenkins-Info.plist */ = {isa = PBXFileReference; path = "HelloJenkins-Info.plist"; sourceTree = "<group>"; };
+		A5C00B3314A4B5830088E6A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5C00B3514A4B5830088E6A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5C00B3714A4B5830088E6A4 /* HelloJenkins-Prefix.pch */ = {isa = PBXFileReference; path = "HelloJenkins-Prefix.pch"; sourceTree = "<group>"; };
+		A5C00B3814A4B5830088E6A4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5C00B3914A4B5830088E6A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C00B2214A4B5830088E6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C00B2A14A4B5830088E6A4 /* UIKit.framework in Frameworks */,
+				A5C00B2C14A4B5830088E6A4 /* Foundation.framework in Frameworks */,
+				A5C00B2E14A4B5830088E6A4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5C00B1A14A4B5830088E6A4 = {
+			isa = PBXGroup;
+			children = (
+				A5C00B2F14A4B5830088E6A4 /* HelloJenkins */,
+				A5C00B2814A4B5830088E6A4 /* Frameworks */,
+				A5C00B2614A4B5830088E6A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5C00B2614A4B5830088E6A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5C00B2514A4B5830088E6A4 /* HelloJenkins.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5C00B2814A4B5830088E6A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C00B2914A4B5830088E6A4 /* UIKit.framework */,
+				A5C00B2B14A4B5830088E6A4 /* Foundation.framework */,
+				A5C00B2D14A4B5830088E6A4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5C00B2F14A4B5830088E6A4 /* HelloJenkins */ = {
+			isa = PBXGroup;
+			children = (
+				A5C00B3814A4B5830088E6A4 /* AppDelegate.h */,
+				A5C00B3914A4B5830088E6A4 /* AppDelegate.m */,
+				A5C00B3014A4B5830088E6A4 /* Supporting Files */,
+			);
+			path = HelloJenkins;
+			sourceTree = "<group>";
+		};
+		A5C00B3014A4B5830088E6A4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5C00B3114A4B5830088E6A4 /* HelloJenkins-Info.plist */,
+				A5C00B3214A4B5830088E6A4 /* InfoPlist.strings */,
+				A5C00B3514A4B5830088E6A4 /* main.m */,
+				A5C00B3714A4B5830088E6A4 /* HelloJenkins-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5C00B2414A4B5830088E6A4 /* HelloJenkins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5C00B3D14A4B5830088E6A4 /* Build configuration list for PBXNativeTarget "HelloJenkins" */;
+			buildPhases = (
+				A5C00B2114A4B5830088E6A4 /* Sources */,
+				A5C00B2214A4B5830088E6A4 /* Frameworks */,
+				A5C00B2314A4B5830088E6A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloJenkins;
+			productName = HelloJenkins;
+			productReference = A5C00B2514A4B5830088E6A4 /* HelloJenkins.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5C00B1C14A4B5830088E6A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A5C00B1F14A4B5830088E6A4 /* Build configuration list for PBXProject "HelloJenkins" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5C00B1A14A4B5830088E6A4;
+			productRefGroup = A5C00B2614A4B5830088E6A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5C00B2414A4B5830088E6A4 /* HelloJenkins */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C00B2314A4B5830088E6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C00B3414A4B5830088E6A4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5C00B2114A4B5830088E6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C00B3614A4B5830088E6A4 /* main.m in Sources */,
+				A5C00B3A14A4B5830088E6A4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5C00B3214A4B5830088E6A4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5C00B3314A4B5830088E6A4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5C00B3B14A4B5830088E6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5C00B3C14A4B5830088E6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5C00B3E14A4B5830088E6A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5C00B3F14A4B5830088E6A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloJenkins/HelloJenkins-Prefix.pch";
+				INFOPLIST_FILE = "HelloJenkins/HelloJenkins-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5C00B1F14A4B5830088E6A4 /* Build configuration list for PBXProject "HelloJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C00B3B14A4B5830088E6A4 /* Debug */,
+				A5C00B3C14A4B5830088E6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5C00B3D14A4B5830088E6A4 /* Build configuration list for PBXNativeTarget "HelloJenkins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C00B3E14A4B5830088E6A4 /* Debug */,
+				A5C00B3F14A4B5830088E6A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5C00B1C14A4B5830088E6A4 /* Project object */;
+}
