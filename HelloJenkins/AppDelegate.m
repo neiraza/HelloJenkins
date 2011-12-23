@@ -14,6 +14,7 @@
 
 - (void)dealloc
 {
+    [rootViewController_ release];
     [_window release];
     [super dealloc];
 }
@@ -24,6 +25,11 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    rootViewController_ = [[RootViewController alloc]init];
+    [rootViewController_.view setFrame:CGRectMake(0, 0, 320, 480)];
+    [self.window addSubview:rootViewController_.view];
+    
     return YES;
 }
 

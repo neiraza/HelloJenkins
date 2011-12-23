@@ -13,6 +13,7 @@
 		A5C00B3414A4B5830088E6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5C00B3214A4B5830088E6A4 /* InfoPlist.strings */; };
 		A5C00B3614A4B5830088E6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C00B3514A4B5830088E6A4 /* main.m */; };
 		A5C00B3A14A4B5830088E6A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C00B3914A4B5830088E6A4 /* AppDelegate.m */; };
+		A5C00B4214A4B6120088E6A4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5C00B4114A4B6120088E6A4 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		A5C00B2914A4B5830088E6A4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A5C00B2B14A4B5830088E6A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A5C00B2D14A4B5830088E6A4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A5C00B3114A4B5830088E6A4 /* HelloJenkins-Info.plist */ = {isa = PBXFileReference; path = "HelloJenkins-Info.plist"; sourceTree = "<group>"; };
+		A5C00B3114A4B5830088E6A4 /* HelloJenkins-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloJenkins-Info.plist"; sourceTree = "<group>"; };
 		A5C00B3314A4B5830088E6A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A5C00B3514A4B5830088E6A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5C00B3714A4B5830088E6A4 /* HelloJenkins-Prefix.pch */ = {isa = PBXFileReference; path = "HelloJenkins-Prefix.pch"; sourceTree = "<group>"; };
-		A5C00B3814A4B5830088E6A4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5C00B3714A4B5830088E6A4 /* HelloJenkins-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloJenkins-Prefix.pch"; sourceTree = "<group>"; };
+		A5C00B3814A4B5830088E6A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5C00B3914A4B5830088E6A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5C00B4014A4B6120088E6A4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A5C00B4114A4B6120088E6A4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				A5C00B3814A4B5830088E6A4 /* AppDelegate.h */,
 				A5C00B3914A4B5830088E6A4 /* AppDelegate.m */,
 				A5C00B3014A4B5830088E6A4 /* Supporting Files */,
+				A5C00B4014A4B6120088E6A4 /* RootViewController.h */,
+				A5C00B4114A4B6120088E6A4 /* RootViewController.m */,
 			);
 			path = HelloJenkins;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				A5C00B3614A4B5830088E6A4 /* main.m in Sources */,
 				A5C00B3A14A4B5830088E6A4 /* AppDelegate.m in Sources */,
+				A5C00B4214A4B6120088E6A4 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
